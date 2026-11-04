@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11151b">
+  <meta name="description" content="FpsBase: shooter táctico low-poly con Battle Royale para 100 jugadores, Defuse y combate libre. Vehículos, destrucción y chat de voz de proximidad. Corre en computadoras modestas.">
+  <title>FpsBase — El combate, a tu manera</title>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="FpsBase — El combate, a tu manera">
+  <meta property="og:description" content="Shooter táctico low-poly: Battle Royale para 100 jugadores, Defuse y combate libre. Vehículos, destrucción, chat de voz de proximidad. Corre a 60 FPS en una notebook de 2015.">
+  <meta property="og:image" content="assets/tanque-atraviesa-pared.jpg">
+  <meta property="og:locale" content="es_AR">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/icon.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="FpsBase, inicio">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 36 36" fill="none">
+          <circle cx="18" cy="18" r="11" stroke="currentColor" stroke-width="3"/>
+          <path d="M18 1v9M18 26v9M1 18h9M26 18h9" stroke="currentColor" stroke-width="3"/>
+          <circle cx="18" cy="18" r="2.5" fill="#ec6453"/>
+        </svg>
+      </span>
+      <span class="brand-name">FPS<span>BASE</span></span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menú">
+      <span></span><span></span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="Navegación principal">
+      <a href="#juego">EL JUEGO</a>
+      <a href="#modos">MODOS</a>
+      <a href="#novedades">QUÉ HAY</a>
+      <a href="#mapas">MUNDOS</a>
+      <a href="#requisitos">REQUISITOS</a>
+      <a class="nav-download" href="#descargas">DESCARGAR <span aria-hidden="true">↘</span></a>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero section-wrap" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> SHOOTER TÁCTICO · LOW-POLY · EN DESARROLLO</p>
+        <h1 id="hero-title">EL COMBATE.<br><span>A TU MANERA.</span></h1>
+        <p class="hero-lede">Battle Royale para 100 jugadores, rondas de Defuse y combate libre contra bots. Vehículos, paredes que se rompen y voces que se oyen de donde vienen. Hecho para correr bien en computadoras modestas.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#descargas">DESCARGAR GRATIS <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#requisitos">¿CORRE EN MI PC? <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-meta" aria-label="Características principales">
+          <span><i aria-hidden="true"></i> HASTA 100 JUGADORES</span>
+          <span><i aria-hidden="true"></i> WINDOWS · MAC · ANDROID</span>
+          <span><i aria-hidden="true"></i> 60 FPS EN UNA NOTEBOOK DE 2015</span>
+        </div>
+      </div>
+
+      <figure class="hero-frame">
+        <div class="frame-topline">
+          <span><i aria-hidden="true"></i> CAPTURA DE PARTIDA</span>
+          <span>FPSBASE / 0.8</span>
+        </div>
+        <img src="assets/tanque-atraviesa-pared.jpg" alt="Captura real de una partida de FpsBase en Isla Caldera: un tanque atraviesa la pared de un edificio low-poly." width="1280" height="720">
+        <figcaption>
+          <span>EL TANQUE ABRE SU PROPIO CAMINO</span>
+          <span class="frame-coordinate">ISLA CALDERA</span>
+        </figcaption>
+        <span class="frame-index" aria-hidden="true">01</span>
+      </figure>
+      <div class="hero-coordinates" aria-hidden="true">FpsBase&nbsp; // &nbsp;VERSIÓN 0.8&nbsp; // &nbsp;PROTOTIPO</div>
+    </section>
+
+    <section class="intro section-wrap" id="juego" aria-labelledby="intro-title">
+      <div class="section-kicker"><span>01</span> EL PROYECTO</div>
+      <div class="intro-grid">
+        <h2 id="intro-title">MENOS PESO.<br><span>MÁS PARTIDA.</span></h2>
+        <div class="intro-copy">
+          <p>FpsBase es un FPS táctico de geometría low-poly, pensado para que los sistemas de juego —y no una montaña de gráficos— sean el centro.</p>
+          <p>Mapas, personajes, animaciones y hasta los sonidos se generan con código: la descarga pesa menos de 40 MB y no hace falta instalar nada más para jugarlo.</p>
+        </div>
+      </div>
+      <div class="value-strip">
+        <div><span class="value-symbol" aria-hidden="true">◇</span><strong>INMERSIVO, NO FOTORREALISTA</strong><small>Formas simples. Mundos con personalidad.</small></div>
+        <div><span class="value-symbol" aria-hidden="true">⌘</span><strong>DISEÑADO PARA OPTIMIZAR</strong><small>Detalle por distancia, descarte de lo que no se ve y un modo noche liviano.</small></div>
+        <div><span class="value-symbol" aria-hidden="true">＋</span><strong>PENSADO PARA JUGAR EN LÍNEA</strong><small>Salas por red local o IP, con escuadras y chat de voz.</small></div>
+      </div>
+    </section>
+
+    <section class="modes section-wrap" id="modos" aria-labelledby="modes-title">
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker"><span>02</span> ENTRÁ A LA PARTIDA</div>
+          <h2 id="modes-title">TRES MODOS.<br><span>OTRA HISTORIA CADA VEZ.</span></h2>
+        </div>
+        <p>Elegí tu ritmo: una ronda tensa, un mapa abierto o una pelea que no da tregua. Y antes de empezar, de día o de noche.</p>
+      </div>
+      <div class="mode-grid">
+        <article class="mode-card mode-defuse">
+          <div class="mode-art" aria-hidden="true"><span class="mode-number">01</span><span class="mode-symbol">A<span>—</span>B</span></div>
+          <div class="mode-content">
+            <div class="mode-tag"><span></span> TÁCTICO</div>
+            <h3>DEFUSE</h3>
+            <p>Dos equipos de cinco, rondas sin reaparición y decisiones que cuentan. Comprá equipo, buscá el sitio y plantá —o desactivá— la bomba.</p>
+            <div class="mode-chips"><span>5 VS 5</span><span>ECONOMÍA</span><span>BOMBA</span></div>
+          </div>
+        </article>
+        <article class="mode-card mode-free">
+          <div class="mode-art" aria-hidden="true"><span class="mode-number">02</span><span class="mode-symbol">∞</span></div>
+          <div class="mode-content">
+            <div class="mode-tag"><span></span> COMBATE CONTINUO</div>
+            <h3>COMBATE LIBRE</h3>
+            <p>Explorá, encontrá armas y enfrentate a bots que patrullan y te persiguen. Caés, reaparecés y volvés a la acción.</p>
+            <div class="mode-chips"><span>BOTS</span><span>LOOT</span><span>REAPARICIÓN</span></div>
+          </div>
+        </article>
+        <article class="mode-card mode-br">
+          <div class="mode-art" aria-hidden="true"><span class="mode-number">03</span><span class="mode-symbol">◉</span></div>
+          <div class="mode-content">
+            <div class="mode-tag"><span></span> SUPERVIVENCIA</div>
+            <h3>BATTLE ROYALE</h3>
+            <p>Saltá del avión con hasta 99 rivales, aterrizá y armate. Si caés y tu escuadra sigue en pie, arrastrate hasta un compañero para que te levante.</p>
+            <div class="mode-chips"><span>100 JUGADORES</span><span>ESCUADRAS</span><span>ZONA</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="features section-wrap" id="novedades" aria-labelledby="features-title">
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker"><span>03</span> LO QUE YA PODÉS HACER</div>
+          <h2 id="features-title">UN MUNDO<br><span>QUE RESPONDE.</span></h2>
+        </div>
+        <p>No es solo apuntar y disparar: el mapa se rompe, los vehículos se manejan y el sonido te dice dónde está cada uno.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span class="feature-index">01</span>
+          <h3>VEHÍCULOS</h3>
+          <p>Un jeep de cuatro puertas, con un asiento por puerta, y un tanque que entra por la escotilla, gira la torreta hacia donde mirás y se lleva puestos árboles, rocas y paredes si viene rápido.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-index">02</span>
+          <h3>DESTRUCCIÓN</h3>
+          <p>Las explosiones abren agujeros en las paredes, hunden el terreno y dejan todo ennegrecido. Las puertas y los vidrios se rompen a tiros.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-index">03</span>
+          <h3>MOVIMIENTO LIBRE</h3>
+          <p>Saltá vallas, trepá a pulso hasta donde llegan los brazos, nadá en la superficie o bajo el agua y cuidá el aire. Caer de muy alto duele.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-index">04</span>
+          <h3>VOZ DE PROXIMIDAD</h3>
+          <p>Hablá con quien tengas cerca: la voz se oye en 3D, del lado y a la distancia de quien habla. Con auriculares, los pasos y los disparos también te dicen de dónde vienen.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-index">05</span>
+          <h3>DERRIBADO, NO MUERTO</h3>
+          <p>En escuadras, lo que te mataría te tira al piso: volás, quedás herido y te arrastrás. Un compañero tiene cinco segundos para levantarte.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-index">06</span>
+          <h3>TU PERSONAJE</h3>
+          <p>Elegí ropa, pelo, gorro y colores. Así te ven los demás en línea, con tu nombre arriba de la cabeza para tu escuadra.</p>
+        </article>
+      </div>
+
+      <figure class="night-card">
+        <img src="assets/noche-niebla.jpg" alt="Captura de FpsBase de noche: niebla espesa, árboles que se pierden a lo lejos y personajes como siluetas." width="1280" height="720" loading="lazy">
+        <figcaption>
+          <span class="feature-index">07 / NOCHE CON NIEBLA</span>
+          <strong>DE NOCHE, TODO CAMBIA.</strong>
+          <p>Antes de cada partida elegí la hora. De noche, una niebla espesa tapa todo a 45 metros: se pelea de cerca, con más tensión. En línea vale para toda la sala, así nadie ve más lejos que otro. Y en una PC lenta, el modo noche también es el más liviano.</p>
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="performance" id="rendimiento" aria-labelledby="performance-title">
+      <div class="section-wrap performance-inner">
+        <div class="performance-copy">
+          <div class="section-kicker"><span>04</span> EL RENDIMIENTO TAMBIÉN SE JUEGA</div>
+          <h2 id="performance-title">MÁS PARTIDA.<br><span>MENOS ESPERA.</span></h2>
+          <p>El juego adapta el detalle a la distancia, descarta lo que no ves y, de noche, solo dibuja lo que la niebla deja ver. Todo medido en una MacBook Air de 2015 con gráficos integrados, durante un Battle Royale con 99 bots.</p>
+          <a class="text-link" href="#requisitos">VER REQUISITOS <span aria-hidden="true">↘</span></a>
+        </div>
+        <div class="benchmark">
+          <div class="benchmark-header"><span>PRUEBA DE RENDIMIENTO</span><span>NOTEBOOK DE 2015</span></div>
+          <div class="benchmark-row"><strong>60 <small>FPS</small></strong><span>ESTABLES CON 99 BOTS</span><b>MEDIDO</b></div>
+          <div class="benchmark-row"><strong>~200 <small>MB</small></strong><span>DE MEMORIA EN USO</span><b>MEDIDO</b></div>
+          <div class="benchmark-row"><strong>−91 <small>%</small></strong><span>TRIÁNGULOS DE NOCHE</span><b>MEDIDO</b></div>
+          <p>Intel Core i5-5350U, Intel HD Graphics 6000, 8 GB de RAM, a 1280×720 en calidad media. De noche, el procesador usa menos de la mitad por cuadro: 3,1 ms contra 7,1 ms.</p>
+          <div class="benchmark-grid" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="worlds section-wrap" id="mapas" aria-labelledby="worlds-title">
+      <div class="section-heading worlds-heading">
+        <div>
+          <div class="section-kicker"><span>05</span> RECORRÉ EL TERRENO</div>
+          <h2 id="worlds-title">MAPAS CONSTRUIDOS<br><span>PARA ENCONTRARSE.</span></h2>
+        </div>
+        <p>Islas, caminos, pueblos, playas y puntos de interés. Y con el editor de mundos, armá los tuyos.</p>
+      </div>
+      <div class="world-grid">
+        <figure class="world-card world-caldera">
+          <img src="assets/mapa-caldera.jpg" alt="Vista aérea del mapa Caldera, una isla con pueblos, caminos, río y zonas de terreno." width="900" height="900" loading="lazy">
+          <figcaption><span>01 / TERRENO INSULAR</span><strong>CALDERA</strong><small>TIERRA ADENTRO, OTRO PUNTO DE ENCUENTRO.</small></figcaption>
+        </figure>
+        <figure class="world-card world-seravka">
+          <img src="assets/mapa-seravka.jpg" alt="Vista aérea del mapa Seravka, un terreno verde con localidades, senderos y lagos." width="900" height="900" loading="lazy">
+          <figcaption><span>02 / MAPA DE SUPERVIVENCIA</span><strong>SERAVKA</strong><small>BUSCÁ EL CAMINO. Y EL PRÓXIMO EQUIPO.</small></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="requirements section-wrap" id="requisitos" aria-labelledby="requirements-title">
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker"><span>06</span> ¿CORRE EN MI PC?</div>
+          <h2 id="requirements-title">REQUISITOS<br><span>DEL SISTEMA.</span></h2>
+        </div>
+        <p>No hace falta instalar nada más: cada descarga ya trae todo lo que necesita. Si tu equipo está por debajo del mínimo, probá igual con el modo noche.</p>
+      </div>
+
+      <div class="req-grid">
+        <article class="req-card">
+          <header class="req-head">
+            <span class="req-label">MÍNIMO</span>
+            <h3>Para jugar fluido</h3>
+            <p>Calidad baja o modo noche, 1280×720.</p>
+          </header>
+          <dl class="req-list">
+            <div><dt>Sistema</dt><dd>Windows 10 de 64 bits · macOS 12 Monterey (Mac con Intel)</dd></div>
+            <div><dt>Procesador</dt><dd>2 núcleos de 64 bits a 1,8 GHz <small>(como un Intel Core i5-5350U)</small></dd></div>
+            <div><dt>Memoria</dt><dd>4 GB de RAM</dd></div>
+            <div><dt>Gráficos</dt><dd>Integrados compatibles con OpenGL 3.0 <small>(como Intel HD Graphics 5000 / 6000)</small></dd></div>
+            <div><dt>Espacio</dt><dd>150 MB libres</dd></div>
+          </dl>
+          <p class="req-proof"><span class="req-badge req-tested">PROBADO</span> Funciona a 60 FPS en una MacBook Air de 2015 con estas características.</p>
+        </article>
+
+        <article class="req-card req-featured">
+          <header class="req-head">
+            <span class="req-label">RECOMENDADO</span>
+            <h3>Para verlo todo</h3>
+            <p>Calidad media con sombras, 1920×1080, Battle Royale lleno.</p>
+          </header>
+          <dl class="req-list">
+            <div><dt>Sistema</dt><dd>Windows 10 / 11 de 64 bits · macOS 12 o más nuevo (Mac con Intel)</dd></div>
+            <div><dt>Procesador</dt><dd>4 núcleos a 3 GHz <small>(Intel Core i5 de 8.ª generación / AMD Ryzen 5 2600)</small></dd></div>
+            <div><dt>Memoria</dt><dd>8 GB de RAM</dd></div>
+            <div><dt>Gráficos</dt><dd>Dedicados de 2 GB <small>(GeForce GTX 1050 / Radeon RX 560)</small> o integrados modernos <small>(Intel Iris Xe / Radeon Vega 8)</small></dd></div>
+            <div><dt>Espacio</dt><dd>150 MB libres en SSD</dd></div>
+          </dl>
+          <p class="req-proof"><span class="req-badge">ESTIMADO</span> Pensado para tener margen de sobra a resoluciones más altas.</p>
+        </article>
+
+        <article class="req-card">
+          <header class="req-head">
+            <span class="req-label">MÓVIL</span>
+            <h3>Android</h3>
+            <p>Controles táctiles en pantalla.</p>
+          </header>
+          <dl class="req-list">
+            <div><dt>Sistema</dt><dd>Android 6.0 o más nuevo</dd></div>
+            <div><dt>Procesador</dt><dd>ARM de 64 o 32 bits</dd></div>
+            <div><dt>Memoria</dt><dd>3 GB de RAM <small>(4 GB recomendados)</small></dd></div>
+            <div><dt>Espacio</dt><dd>60 MB libres</dd></div>
+          </dl>
+          <p class="req-proof"><span class="req-badge">ESTIMADO</span> En celulares de gama de entrada, activá el modo noche en Opciones → Gráficos.</p>
+        </article>
+      </div>
+
+      <div class="req-extras">
+        <div><span aria-hidden="true">◎</span><strong>EN LÍNEA</strong><small>Conexión a internet o red local. Salas de hasta 100 jugadores.</small></div>
+        <div><span aria-hidden="true">◉</span><strong>VOZ</strong><small>Micrófono opcional para el chat de voz de proximidad.</small></div>
+        <div><span aria-hidden="true">◐</span><strong>SONIDO 3D</strong><small>Auriculares recomendados para ubicar pasos, disparos y voces.</small></div>
+      </div>
+    </section>
+
+    <section class="downloads section-wrap" id="descargas" aria-labelledby="downloads-title">
+      <div class="section-heading downloads-heading">
+        <div>
+          <div class="section-kicker"><span>07</span> EL PRÓXIMO PASO ES TUYO</div>
+          <h2 id="downloads-title">ELEGÍ TU<br><span>PLATAFORMA.</span></h2>
+        </div>
+        <p>Descargá la versión para tu equipo, descomprimila y jugá. El proyecto sigue en desarrollo: cada versión trae cosas nuevas.</p>
+      </div>
+      <div class="download-grid">
+        <article class="download-card download-featured">
+          <div class="platform-icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32" fill="none"><path d="M4 7.5 14 6v9H4zM16 5.7 28 4v11H16zM4 17h10v9l-10-1.5zM16 17h12v11l-12-1.7z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          </div>
+          <span class="download-label">PC / WINDOWS</span>
+          <h3>Windows</h3>
+          <p>Windows 10 y 11 de 64 bits. Descomprimí y abrí <code>FpsBase.exe</code>.</p>
+          <div class="download-meta"><span>ZIP</span><span>≈ 37 MB</span><span>v0.8</span></div>
+          <a class="button button-download" href="descargas/FpsBase-Windows-x64.zip" download>DESCARGAR <span aria-hidden="true">↓</span></a>
+        </article>
+        <article class="download-card">
+          <div class="platform-icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32" fill="none"><path d="M21.5 4c.2 2-1.4 4.2-3.5 4.3-.3-2 1.5-4 3.5-4.3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M16 10c1.2 0 2.6-1.1 4.4-1 1.4.1 3.3.8 4.4 2.6-3.6 2.2-3 7.4.8 8.8-.9 2.6-2.6 5.5-4.6 5.6-1.6.1-2.1-1-4-1s-2.6 1-4.1 1C10.7 26.1 6 20.4 6 15.1 6 11.6 8.3 9.3 11 9.2c1.8 0 3.3 1 5 .8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          </div>
+          <span class="download-label">PC / macOS</span>
+          <h3>Mac con Intel</h3>
+          <p>Para Mac con procesador Intel, macOS 12 o más nuevo.</p>
+          <div class="download-meta"><span>ZIP</span><span>≈ 36 MB</span><span>v0.8</span></div>
+          <a class="button button-download" href="descargas/FpsBase-MacBook-Intel.zip" download>DESCARGAR <span aria-hidden="true">↓</span></a>
+        </article>
+        <article class="download-card">
+          <div class="platform-icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32" fill="none"><rect x="7" y="12" width="18" height="15" rx="4" stroke="currentColor" stroke-width="2"/><path d="M9 10a8 8 0 0 1 14 0M11 6l-2-3m12 3 2-3M12 17v4m-2-2h4m7-3h.01M22 18h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <span class="download-label">MÓVIL / ANDROID</span>
+          <h3>Android</h3>
+          <p>APK para celulares y tablets con Android 6.0 o más nuevo.</p>
+          <div class="download-meta"><span>APK</span><span>≈ 15 MB</span><span>v0.8</span></div>
+          <a class="button button-download" href="descargas/FpsBase-Android.apk" download>DESCARGAR <span aria-hidden="true">↓</span></a>
+        </article>
+      </div>
+      <p class="download-note"><span aria-hidden="true">!</span> Android puede pedir permiso para instalar aplicaciones fuera de la tienda, y Windows o macOS pueden avisar que el programa no está firmado. Descargá solo desde este sitio.</p>
+    </section>
+
+    <section class="community section-wrap" id="comunidad" aria-labelledby="community-title">
+      <div class="community-mark" aria-hidden="true">
+        <svg viewBox="0 0 64 64" fill="none"><path d="M12 16c13-6 27-6 40 0l6 29c-8 7-14 8-20 9l-4-6h-4l-4 6c-6-1-12-2-20-9l6-29Z" stroke="currentColor" stroke-width="2.5"/><path d="M22 30h1m18 0h1M24 39c5 4 11 4 16 0" stroke="currentColor" stroke-width="4" stroke-linecap="round"/></svg>
+      </div>
+      <div class="community-copy">
+        <div class="section-kicker"><span>08</span> NOS VEMOS EN LA PARTIDA</div>
+        <h2 id="community-title">LA COMUNIDAD<br><span>LA HACEMOS JUNTOS.</span></h2>
+        <p>Armá escuadra, contanos qué te gustaría ver en el juego y enterate antes que nadie de cada versión nueva.</p>
+      </div>
+      <div class="community-action">
+        <button class="button button-discord" id="discord-button" type="button" disabled>DISCORD MUY PRONTO</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-wrap">
+    <a class="brand footer-brand" href="#inicio" aria-label="FpsBase, volver al inicio">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 36 36" fill="none">
+          <circle cx="18" cy="18" r="11" stroke="currentColor" stroke-width="3"/>
+          <path d="M18 1v9M18 26v9M1 18h9M26 18h9" stroke="currentColor" stroke-width="3"/>
+          <circle cx="18" cy="18" r="2.5" fill="#ec6453"/>
+        </svg>
+      </span>
+      <span class="brand-name">FPS<span>BASE</span></span>
+    </a>
+    <p>HECHO PARA JUGAR. HECHO PARA SEGUIR CRECIENDO.</p>
+    <a class="back-top" href="#inicio">VOLVER ARRIBA ↑</a>
+    <small>© <span id="year">2026</span> FPSBASE · PROTOTIPO EN DESARROLLO</small>
+  </footer>
+</body>
+</html>
